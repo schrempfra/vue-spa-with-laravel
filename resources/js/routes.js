@@ -1,5 +1,5 @@
 import Home from './components/Home';
-import About from './components/About';
+import Support from './components/Support';
 import Contact from './components/Contact';
 
 export default {
@@ -18,8 +18,8 @@ export default {
 
         {
 
-            path: '/about',
-            component: About
+            path: '/support',
+            component: Support
             
         },
 
