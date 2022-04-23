@@ -8,6 +8,6 @@ use App\Models\User;
 class UserController extends Controller 
 {
     public function index() {
-        return response()->json(['users' => [['name' => 'John'], ['name' => 'Alice']]], 200);
+        return response()->json(['users' => User::all()], 200);
     }
 }
