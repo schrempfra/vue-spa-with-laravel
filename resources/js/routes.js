@@ -2,6 +2,7 @@ import Home from './components/Home';
 import Support from './components/Support';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Users from './components/Users';
 
 export default {
     mode: 'history',
@@ -34,6 +35,13 @@ export default {
             path: '/contact',
             component: Contact
             
+        },
+
+        {
+
+            path: '/users',
+            component: Users
+
         },
     ]
 };

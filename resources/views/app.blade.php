@@ -110,6 +110,12 @@
                                 to="/contact">
                                 Contact
                             </router-link>
+
+                            <router-link
+                                class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                to="/users">
+                                Users
+                            </router-link>
                         </div>
                     </div>
                 </div>
