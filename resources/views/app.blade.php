@@ -11,10 +11,7 @@
 </head>
 
 <body>
-
     <div id="app">
-
-
         <!-- This example requires Tailwind CSS v2.0+ -->
         <nav class="bg-white shadow">
             <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -96,17 +93,20 @@
                         </div>
                         <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                            <router-link class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                            <router-link
+                                class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 to="/" exact>
                                 Home
                             </router-link>
 
-                            <router-link class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                            <router-link
+                                class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 to="/support">
                                 Support
                             </router-link>
 
-                            <router-link class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                            <router-link
+                                class="hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 to="/contact">
                                 Contact
                             </router-link>
@@ -119,15 +119,20 @@
             <div class="sm:hidden" id="mobile-menu">
                 <div class="pt-2 pb-4 space-y-1">
                     <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-                    <router-link class="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" to="/" exact>
+                    <router-link
+                        class="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                        to="/" exact>
                         Home
                     </router-link>
 
-                    <router-link class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" to="/support">
+                    <router-link
+                        class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                        to="/support">
                         Support
                     </router-link>
 
-                    <router-link class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                    <router-link
+                        class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                         to="/contact">
                         Contact
                     </router-link>
@@ -139,7 +144,6 @@
             <router-view></router-view>
         </div>
     </div>
-
     <script src="{{ asset('/js/app.js') }}"></script>
 </body>
 

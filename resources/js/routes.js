@@ -1,6 +1,7 @@
 import Home from './components/Home';
 import Support from './components/Support';
 import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 export default {
     mode: 'history',
@@ -9,6 +10,11 @@ export default {
 
     routes: [
         
+        {
+            path: '*',
+            component: NotFound
+        },
+
         {
 
             path: '/',
